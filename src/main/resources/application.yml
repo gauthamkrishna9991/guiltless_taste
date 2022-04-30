@@ -1,0 +1,13 @@
+greeting:
+  message: "hello"
+quarkus:
+  datasource:
+    db-kind: "postgresql"
+    username: "dev"
+    password: "dev"
+    jdbc:
+      url: "jdbc:postgresql://localhost:5432/guiltless_taste"
+      max-size: 16
+  hibernate-orm:
+    database:
+      generation: "drop-and-create"
